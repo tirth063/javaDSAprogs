@@ -1,4 +1,6 @@
 package DSAs.treedsaq;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -165,6 +167,7 @@ class BinaryTree {
     }
 
 
+
     public void printPostOrder(Node root) {
         if (root == null) {
             return;
@@ -219,13 +222,4 @@ class BinaryTree {
         return true;
     }
 
-}
-
-class Node {
-    int data;
-    Node left, right;
-
-    Node(int data) {
-        this.data = data;
-    }
 }
